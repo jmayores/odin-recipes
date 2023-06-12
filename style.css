@@ -1,0 +1,38 @@
+body,
+div ul {
+    font-size: 18px;
+}
+
+body {
+    font-family: "Monaco", Verdana, sans-serif;
+    background-color: #80808020;
+}
+
+img {
+    height: auto;
+    width: 600px;
+}
+
+h1 {
+    background-color: #AA1111;
+    font-size: 45px;
+    color: #f0f8ff;
+}
+
+h2 {
+    font-size: 35px;
+    background-color: rgb(241, 196, 196);
+}
+
+h3 {
+    font-size: 25px;
+}
+
+div {
+    text-align: center;
+}
+
+div ul {
+    display: table;
+    margin: 0 auto;
+}
