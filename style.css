@@ -1,38 +1,53 @@
-body,
-div ul {
-    font-size: 18px;
-}
-
 body {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
     font-family: "Monaco", Verdana, sans-serif;
-    background-color: #80808020;
+    background-color: rgb(253, 219, 229);
 }
 
 img {
-    height: auto;
-    width: 600px;
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     background-color: #AA1111;
-    font-size: 45px;
+    font-size: 30px;
     color: #f0f8ff;
+    text-align: center;
+    padding: 7px;
 }
 
 h2 {
-    font-size: 35px;
-    background-color: rgb(241, 196, 196);
+    font-size: 26px;
+    background-color: rgb(255, 168, 178);
+    padding: 6px;
+    padding-left: 20px;
+    margin: 20px;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 22px;
+    margin-left: 40px;
 }
 
-div {
+.main {
+    background-color: white;
+    padding-bottom: 12px;
+}
+
+.recipe-list {
+    display: table;
+    margin: 0 auto;
     text-align: center;
 }
 
-div ul {
-    display: table;
-    margin: 0 auto;
+p, ul, ol {
+    margin-left: 30px;
+    margin-right: 30px;
 }
