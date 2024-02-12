@@ -1,0 +1,26 @@
+body {
+    font-family: 'Verdana', 'Helvetica', sans-serif;
+}
+
+h1,
+.index-list {
+    text-align: center;  
+}
+
+h1 {
+    background-color: rgb(198, 22, 22);
+    color: white;
+}
+
+h2 {
+    background-color: rgb(255, 182, 195);
+}
+
+.index-list {
+    list-style-position: inside;
+}
+
+img {
+    height: 350px;
+    width: auto;
+}
