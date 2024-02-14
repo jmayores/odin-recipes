@@ -1,19 +1,32 @@
 body {
     font-family: 'Verdana', 'Helvetica', sans-serif;
+    background-color: #7FC7D9;
+}
+
+.content {
+    width: 1000px;
+    margin: 24px auto;
+    padding: 16px;
+    background-color: #DCF2F1;
 }
 
 h1,
 .index-list {
-    text-align: center;  
+    text-align: center;
 }
 
 h1 {
-    background-color: rgb(198, 22, 22);
+    margin: auto;
+    padding: 8px;
+    border: 2px solid #0F1035;
+    background-color: #365486;
     color: white;
 }
 
 h2 {
-    background-color: rgb(255, 182, 195);
+    padding: 8px;
+    background-color: #365486;
+    color: white;
 }
 
 .index-list {
@@ -21,6 +34,13 @@ h2 {
 }
 
 img {
-    height: 350px;
+    display: block;
+    margin: 16px auto;
+    height: 325px;
     width: auto;
+}
+
+p {
+    padding-left: 16px;
+    padding-right: 16px
 }
